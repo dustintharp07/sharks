@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Shark Attacks",
+    "section": "",
+    "text": "The Global Shark Attack File (GSAF) is a collection of reported shark incidents from around the world. It documents where and when incidents occurred and, when available, what people were doing. Like any incident database, it reflects reported records rather than every encounter.\nShark attacks can be frightening, but the danger to any one person is small. Rare, dramatic events can receive outsized attention and make the risk feel more common than it is. Sharks are wild animals, so follow local beach guidance and respect closures.\nUse the Map page to explore recorded attack counts by country. Trends compares fatal and non-fatal records across activities with at least 50 incidents, leaving out records with unknown outcomes. These are counts in this dataset, not estimates of personal risk."
+  },
+  {
+    "objectID": "map.html",
+    "href": "map.html",
+    "title": "Map",
+    "section": "",
+    "text": "Rows: 5094 Columns: 15\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (14): Case_Number, Date, Type, Country, Area, Location, Activity, Name, ...\ndbl  (1): Year\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n\n\n\n\n\n\n\n\n\n\n\n\n\n# A tibble: 3 × 2\n  Fatal_clean     n\n  &lt;chr&gt;       &lt;int&gt;\n1 Fatal         943\n2 Non-fatal    3763\n3 Unknown       388"
+  }
+]
